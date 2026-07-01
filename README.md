@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2D5DA1&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hi%2C+I'm+Henrik+Just!;Media+Informatics+%26+Business+Admin;Building+apps+%7C+Games+%7C+Tools" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2D5DA1&center=true&vCenter=true&width=800&lines=%F0%9F%91%8B+Hi%2C+I'm+Henrik+Just!;Media+Informatics+%26+Business+Admin;Building+apps+%7C+Games+%7C+Tools" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -8,8 +8,7 @@
 
 <p align="center">
   <a href="https://henrik-just.dev"><img src="https://img.shields.io/badge/Portfolio-henrik--just.dev-2D5DA1?style=for-the-badge&logo=astro&logoColor=white" /></a>
-  <a href="mailto:henrik@just.email"><img src="https://img.shields.io/badge/Email-henrik%40just.email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Henk-git"><img src="https://img.shields.io/badge/GitHub-Henk--git-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://github.com/Henk-git"><img src="https://img.shields.io/badge/GitHub-Henk--git-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ## About Me
@@ -17,7 +16,6 @@
 Student of **Media Informatics & Business Administration**, passionate about building things from scratch — whether it's a game loop in Java, a real-time canvas in Flutter, or a TCP scanner in C. I enjoy understanding how things work under the hood and turning ideas into working software.
 
 - 🏆 **1st place** in a Java programming competition (Flappy Santa)
-- 🔭 Building a **real-time r/place clone** with Supabase streams
 - 🌱 Currently diving deeper into **Flutter**, **React**, and **cloud backends**
 - 🎯 Focus: clean code, thoughtful architecture, creative UI
 - 📍 Based in **Regensburg, Germany**
@@ -31,7 +29,6 @@ Student of **Media Informatics & Business Administration**, passionate about bui
 | [**Portfolio**](https://henrik-just.dev) | Astro, React, Framer Motion | Physics-based hanging card, 3D tech sphere, terminal typing effect |
 | [**Socket Scanner**](https://github.com/Henk-git/Socket-Scanner-Core-C-) | C, POSIX Sockets | Raw TCP handshake, banner grabbing, OS fingerprinting |
 | [**PokéType**](https://github.com/Henk-git/PokeType) | Swift, SwiftUI | Pokémon type-checker with interactive UI |
-| **r/place Clone** | Flutter, Dart, Supabase | Real-time pixel canvas, cloud auth, live stream sync |
 
 ## Tech Stack
 
@@ -48,8 +45,9 @@ Student of **Media Informatics & Business Administration**, passionate about bui
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Henk-git/Henk-git/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Henk-git/Henk-git/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Henk-git/Henk-git/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./maeul-in-the-sky-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./maeul-in-the-sky-light.svg">
+    <img alt="GitHub contribution terrain" src="./maeul-in-the-sky-dark.svg" width="100%">
   </picture>
 </div>
+
