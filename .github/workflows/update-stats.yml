@@ -1,0 +1,28 @@
+name: Update GitHub stats
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/update-stats.mjs
+        env:
+          GH_USERNAME: Henk-git
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh github stats'
+          file_pattern: 'assets/github-stats.svg assets/dark/github-stats.svg'

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1000 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Build log — meme esolang, PokeBattle LED, PegelRank and r/place, Tagesschau App and Regensburg Map, Flappy Santa and PokeType, University of Regensburg">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .a1{animation-delay:.15s} .a2{animation-delay:.35s} .a3{animation-delay:.55s} .a4{animation-delay:.75s} .a5{animation-delay:.95s} .a6{animation-delay:1.15s}
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+      :root { --bone: #000000; --muted: #000000; --dim: #000000; --rule: #000000; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; --ghost: #000000; }
+  </style>
+
+  <line x1="120" y1="10" x2="120" y2="550" stroke="var(--rule)" stroke-width="1" opacity=".4"/>
+
+  <g class="rise a1">
+    <text class="mono" x="48" y="42"  font-size="12" fill="var(--accent)" letter-spacing="2">NOW</text>
+    <text class="mono" x="136" y="42"  font-size="15" fill="var(--bone)">Meme Esolang · custom compiler, work in progress</text>
+    <text class="mono" x="136" y="68"  font-size="14" fill="var(--muted)">custom lexer &amp; parser generating a full AST, transpiled into optimized C</text>
+    <text class="mono" x="136" y="90"  font-size="14" fill="var(--muted)">native compilation via GCC/Clang · toolchain tuned for Apple Silicon</text>
+  </g>
+
+  <g class="rise a2">
+    <text class="mono" x="48" y="132" font-size="12" fill="var(--accent)" letter-spacing="2">2026</text>
+    <text class="mono" x="136" y="132" font-size="15" fill="var(--bone)">PokéBattle LED Edition · pure C on an ATmega328P</text>
+    <text class="mono" x="136" y="158" font-size="14" fill="var(--muted)">turn-based Pokémon battle on an 8×8 LED matrix, driven by 74HC595 shift registers</text>
+    <text class="mono" x="136" y="180" font-size="14" fill="var(--muted)">joystick input, real-time HP tracking, ~500 Hz refresh</text>
+  </g>
+
+  <g class="rise a3">
+    <text class="mono" x="48" y="222" font-size="12" fill="var(--accent)" letter-spacing="2">2025–26</text>
+    <text class="mono" x="136" y="222" font-size="15" fill="var(--bone)">PegelRank &amp; r/place 2-Player · React · Flutter · Supabase</text>
+    <text class="mono" x="136" y="248" font-size="14" fill="var(--muted)">ELO ranking web app for Beer Pong &amp; Flunkyball groups, deployed on Vercel</text>
+    <text class="mono" x="136" y="270" font-size="14" fill="var(--muted)">real-time two-player pixel canvas — taps sync instantly across devices</text>
+  </g>
+
+  <g class="rise a4">
+    <text class="mono" x="48" y="312" font-size="12" fill="var(--accent)" letter-spacing="2">2025</text>
+    <text class="mono" x="136" y="312" font-size="15" fill="var(--bone)">Tagesschau App &amp; Regensburg Map · Flutter · Dart</text>
+    <text class="mono" x="136" y="338" font-size="14" fill="var(--muted)">live news feed from the Tagesschau REST API, with image previews and loading states</text>
+    <text class="mono" x="136" y="360" font-size="14" fill="var(--muted)">zoomable OpenStreetMap view of Regensburg with custom markers and detail sheets</text>
+  </g>
+
+  <g class="rise a5">
+    <text class="mono" x="48" y="402" font-size="12" fill="var(--accent)" letter-spacing="2">2024</text>
+    <text class="mono" x="136" y="402" font-size="15" fill="var(--bone)">Flappy Santa &amp; PokéType · Java · Swift</text>
+    <text class="mono" x="136" y="428" font-size="14" fill="var(--muted)">Java arcade game with a custom game loop — 1st place at a university competition</text>
+    <text class="mono" x="136" y="450" font-size="14" fill="var(--muted)">native offline macOS app for Pokémon type effectiveness, full Gen 6+ damage matrix</text>
+  </g>
+
+  <g class="rise a6">
+    <text class="mono" x="48" y="492" font-size="12" fill="var(--accent)" letter-spacing="2">since</text>
+    <text class="mono" x="136" y="492" font-size="15" fill="var(--bone)">University of Regensburg · Media Informatics &amp; Business Administration</text>
+    <text class="mono" x="136" y="518" font-size="14" fill="var(--muted)">full-stack, mobile and systems projects built alongside coursework</text>
+  </g>
+</svg>
